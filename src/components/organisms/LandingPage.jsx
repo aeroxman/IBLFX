@@ -604,7 +604,7 @@ const LandingPage = () => {
               <div className="mt-1 sm:mt-24">
                 <p
                   className="text-white text-4xl font-bold pl-60 pr-4 py-14
-                  bg-gradient-to-l from-realOrange to-realPurple bg-opacity-50 shadow-xl"
+                  bg-gradient-to-l from-realOrange to-realPurple bg-opacity-50"
                 >
                   Mergulhe no mundo Crypto com a IBLFx
                 </p>
