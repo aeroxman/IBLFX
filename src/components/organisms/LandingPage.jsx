@@ -495,9 +495,9 @@ const LandingPage = () => {
                   <p className="my-10 text-base text-purple-200 font-medium">
                     Tenha exposição a diversas criptos com apenas uma! A
                     plataforma do{" "}
-                    <span className="text-cyan-600">Greedyfi</span>
-                    fornece acesso a diferentes cestas de tokens, proporcionando
-                    uma oportunidade fácil e diversificada para qualquer pessoa.
+                    <span className="text-cyan-600">Greedyfi</span> fornece
+                    acesso a diferentes cestas de tokens, proporcionando uma
+                    oportunidade fácil e diversificada para qualquer pessoa.
                     Cada cesta de tokens tem uma finalidade e exposição
                     diferente, com base numa análise aprofundada de cada token.
                   </p>
