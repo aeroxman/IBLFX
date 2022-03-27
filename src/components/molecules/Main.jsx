@@ -3,6 +3,10 @@ import React from "react";
 const Main = () => {
   return (
     <>
+      {/* <video loop autoPlay>
+        <source src="../../assets/bg-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video> */}
       {/* texts left side */}
       <div className="pt-10 bg-black sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
         <div className="mx-auto max-w-7xl lg:px-8">

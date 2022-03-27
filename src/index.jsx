@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import LandingPage from "./components/organisms/LandingPage";
+import "tw-elements";
 
 ReactDOM.render(
   <React.StrictMode>
