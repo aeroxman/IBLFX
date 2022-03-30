@@ -15,7 +15,7 @@ const navigation = [
 const MainHeader = () => {
   return (
     <>
-      <div className="bg-black pt-6">
+      <div className="bg-black bg-opacity-80 pt-6">
         <nav
           className="relative max-w-7xl mx-auto flex items-center justify-between px-4 lg:px-6 pb-4"
           aria-label="Global"

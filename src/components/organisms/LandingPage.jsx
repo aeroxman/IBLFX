@@ -12,7 +12,7 @@ import Footer from "../molecules/Footer";
 
 const LandingPage = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden bg-black">
       <Header />
       <Main />
       <LogoCloud />
