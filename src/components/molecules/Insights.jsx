@@ -3,8 +3,8 @@ import React from "react";
 const Insights = () => {
   return (
     <>
-      <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 py-16">
-        <div className="mt-1 sm:mt-24">
+      <div className="py-4 lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:py-16">
+        <div className="lg:mt-24 hidden lg:block">
           <img
             className=""
             src={require("../../assets/fundofade.png")}
@@ -25,10 +25,10 @@ const Insights = () => {
         <div className="px-4 max-w-xl mx-auto sm:px-6 lg:max-w-none lg:mx-0 lg:px-16 lg:col-start-2">
           <div>
             <div className="mt-6">
-              <h2 className="text-9xl text-center font-bold tracking-tight text-white italic">
+              <h2 className="text-8xl text-center font-bold tracking-tight text-white italic lg:text-9xl">
                 Insights
               </h2>
-              <p className="mt-8 text-lg text-white">
+              <p className="mt-4 text-lg text-white lg:mt-8">
                 O IBLF<span className="text-realOrange">X</span> Insights é o
                 nosso catálogo de vídeos e e-books totalmente gratuitos para
                 ajudar você a entrar de vez no mundo dos Crypto Ativos,

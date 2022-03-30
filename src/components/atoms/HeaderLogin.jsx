@@ -9,7 +9,7 @@ import {
 const HeaderLogin = () => {
   return (
     <>
-      <div className="flex justify-between items-center bg-realBlue px-4 py-2 sm:px-6 md:justify-start md:space-x-10 lg:px-32">
+      <div className="flex justify-between items-center bg-realBlue px-4 py-2 md:justify-start md:space-x-10 lg:px-32">
         <div className="flex justify-start lg:w-0 lg:flex-1" />
         <nav className="hidden md:flex space-x-5">
           <a

@@ -17,7 +17,7 @@ const MainHeader = () => {
     <>
       <div className="bg-black pt-6">
         <nav
-          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 pb-4"
+          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 lg:px-6 pb-4"
           aria-label="Global"
         >
           <div className="flex items-center flex-1">

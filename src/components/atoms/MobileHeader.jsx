@@ -30,7 +30,13 @@ const MobileHeader = () => {
         >
           <div className="rounded-lg shadow-md bg-realPurple ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">
-              <div />
+              <div>
+                <img
+                  className="h-8 w-auto"
+                  src={require("../../assets/LGO.png")}
+                  alt=""
+                />
+              </div>
               <div className="-mr-2">
                 <Popover.Button className="bg-black rounded-md p-2 inline-flex items-center justify-center text-realOrange">
                   <span className="sr-only">Close menu</span>
