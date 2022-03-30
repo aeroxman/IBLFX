@@ -17,7 +17,7 @@ const MainHeader = () => {
     <>
       <div className="bg-black pt-6">
         <nav
-          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
+          className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6 pb-4"
           aria-label="Global"
         >
           <div className="flex items-center flex-1">
@@ -32,8 +32,8 @@ const MainHeader = () => {
               </a>
               <div className="-mr-2 flex items-center md:hidden">
                 <Popover.Button
-                  className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 
-          hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white"
+                  className="rounded-md p-2 inline-flex items-center justify-center text-realOrange 
+                  hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white"
                 >
                   <span className="sr-only">Open main menu</span>
                   <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -55,8 +55,8 @@ const MainHeader = () => {
             </div>
             <button
               className="ml-10 whitespace-nowrap inline-flex items-center justify-center bg-realOrange
-        bg-origin-border px-4 py-1 border border-transparent rounded-full
-        text-base font-medium text-white hover:bg-orange-800"
+              bg-origin-border px-4 py-1 border border-transparent rounded-full
+              text-base font-medium text-white hover:bg-orange-800"
             >
               <img
                 className="h-4 w-auto mr-2"

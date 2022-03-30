@@ -56,10 +56,7 @@ const footerNavigation = {
 const Footer = () => {
   return (
     <>
-      <footer
-        className="bg-gradient-to-l from-purple-800 to-realPurple"
-        aria-labelledby="footer-heading"
-      >
+      <footer aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>

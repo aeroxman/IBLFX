@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
       <Popover as="header" className="relative">
-        <div>
+        <div className="fixed w-full z-50">
           <HeaderLogin />
           <MainHeader />
         </div>

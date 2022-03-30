@@ -14,15 +14,15 @@ const LandingPage = () => {
   return (
     <div className="relative overflow-hidden">
       <Header />
-      <main>
-        <Main />
-        <LogoCloud />
+      <Main />
+      <LogoCloud />
+      <div className="bg-gradient-to-br from-realPurple via-realPurple to-orange-900">
         <Permissionados />
         <Greedyfy />
         <WhatWeDo />
         <Insights />
-      </main>
-      <Footer />
+        <Footer />
+      </div>
     </div>
   );
 };
