@@ -12,14 +12,16 @@ import Footer from "../molecules/Footer";
 
 const LandingPage = () => {
   return (
-    <div className="relative overflow-hidden bg-black">
+    <div className="relative overflow-hidden bg-realPurple">
       <Header />
       <Main />
       <LogoCloud />
+      <Permissionados />
       <div className="bg-gradient-to-br from-realPurple via-realPurple to-orange-900">
-        <Permissionados />
         <Greedyfy />
         <WhatWeDo />
+      </div>
+      <div className="bg-gradient-to-tr from-realPurple via-realPurple to-orange-900">
         <Insights />
         <Footer />
       </div>

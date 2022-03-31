@@ -3,7 +3,7 @@ import React from "react";
 const PermissionadosMobile = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto px-4 py-8 lg:px-8 lg:py-16">
+      <div className="max-w-7xl mx-auto px-8 py-8">
         <img
           className=""
           src={require("../../assets/infograficoMobile.png")}

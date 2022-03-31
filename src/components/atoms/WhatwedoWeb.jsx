@@ -2,13 +2,13 @@ import React from "react";
 
 const WhatwedoWeb = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-4 lg:px-8">
+    <div className="max-w-4xl mx-auto px-8 lg:pb-16 lg:max-w-7xl">
       <h2 className="text-8xl font-bold text-white text-center tracking-tight italic">
         What we do
       </h2>
       <div className="grid mt-16 grid-cols-3 gap-x-8 gap-y-16">
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             Lending & Borrowing
           </h3>
           <p className="mb-24 mt-12 text-base text-purple-200 font-medium">
@@ -29,8 +29,8 @@ const WhatwedoWeb = () => {
           </div>
         </div>
 
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             OTC (Over the Counter)
           </h3>
           <p className="mb-20 mt-10 text-base text-purple-200 font-medium">
@@ -51,8 +51,8 @@ const WhatwedoWeb = () => {
           </div>
         </div>
 
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             DeFi Basket
           </h3>
           <p className="my-10 text-base text-purple-200 font-medium">
@@ -76,8 +76,8 @@ const WhatwedoWeb = () => {
       </div>
 
       <div className="grid mt-16 grid-cols-3 gap-x-8 gap-y-16">
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             Permissioned AMM & Pools
           </h3>
           <p className="mb-9 mt-12 text-base text-purple-200 font-medium">
@@ -98,8 +98,8 @@ const WhatwedoWeb = () => {
           </div>
         </div>
 
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             LaunchPad
           </h3>
           <p className="my-4 text-base text-purple-200 font-medium">
@@ -121,8 +121,8 @@ const WhatwedoWeb = () => {
           </div>
         </div>
 
-        <div className="bg-black rounded-xl px-10 py-4 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium text-white">
+        <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
+          <h3 className="text-xl text-realOrange text-center font-medium">
             Vault
           </h3>
           <p className="my-4 text-base text-purple-200 font-medium">
@@ -137,12 +137,20 @@ const WhatwedoWeb = () => {
             <button
               type="submit"
               className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
-                        px-12 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
+              px-12 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
             >
               Conheça
             </button>
           </div>
         </div>
+      </div>
+      <div className="shadow-3xl rounded-xl shadow-orange-500/50 pb-8 max-w-7xl mx-auto py-8 px-4 hidden lg:block lg:px-8 lg:mt-20">
+        <p className="text-4xl tracking-tight text-white text-center">
+          <span className="tracking-tight font-bold text-realOrange italic">
+            LAUNCHPAD
+          </span>{" "}
+          com projetos rigorosamente selecionados
+        </p>
       </div>
     </div>
   );

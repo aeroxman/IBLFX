@@ -3,7 +3,7 @@ import PermissionadosMobile from "../atoms/PermissionadosMobile";
 
 const Permissionados = () => {
   return (
-    <>
+    <div className="bg-gradient-to-t from-realPurple to-black">
       <div className="max-w-7xl mx-auto px-4 py-8 lg:px-8 lg:py-16 hidden lg:block">
         <img
           className=""
@@ -23,7 +23,7 @@ const Permissionados = () => {
           da LATAM
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

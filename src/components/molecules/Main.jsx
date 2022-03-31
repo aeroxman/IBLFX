@@ -3,7 +3,7 @@ import MainPage from "../atoms/MainPage";
 
 const Main = () => {
   return (
-    <div className="lg:pt-10 lg:overflow-hidden">
+    <div className="-my-36 lg:-my-0 lg:pt-10 lg:overflow-hidden bg-black">
       <MainPage />
     </div>
   );

@@ -16,7 +16,7 @@ const LogoCloud = () => {
         </div>
       </div>
 
-      <div className="bg-gradient-to-t from-realPurple to-black py-8" />
+      {/* <div className="bg-gradient-to-t from-realPurple to-black py-8" /> */}
     </>
   );
 };

@@ -56,19 +56,6 @@ const MobileHeader = () => {
                   </a>
                 ))}
               </div>
-              <div className="mt-6 px-5">
-                <button
-                  className="whitespace-nowrap inline-flex justify-center items-center bg-realOrange px-4 py-1 rounded-full
-                  text-base font-medium text-white w-full h-10"
-                >
-                  <img
-                    className="h-4 w-auto mr-2"
-                    src={require("../../assets/rocket.png")}
-                    alt=""
-                  />
-                  Launch APP
-                </button>
-              </div>
               <div className="mt-6 px-5 flex justify-center space-x-6">
                 <p className="text-center text-base font-medium text-white">
                   Login

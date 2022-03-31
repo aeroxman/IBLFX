@@ -2,7 +2,7 @@ import React from "react";
 
 const WhatwedoMobile = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 pb-16">
+    <div className="max-w-4xl mx-auto px-8 py-16">
       <h2 className="text-6xl font-bold text-white text-center tracking-tight italic pb-8">
         What we do
       </h2>
@@ -14,7 +14,7 @@ const WhatwedoMobile = () => {
         <div class="carousel-inner relative w-full overflow-hidden">
           <div class="carousel-item active relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-xl text-realOrange text-center font-bold">
                 Lending & Borrowing
               </h3>
               <p className="mb-24 mt-4 text-base text-purple-200 font-medium">
@@ -37,7 +37,7 @@ const WhatwedoMobile = () => {
           </div>
           <div class="carousel-item relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-xl text-realOrange text-center font-bold">
                 OTC (Over the Counter)
               </h3>
               <p className="mb-20 mt-4 text-base text-purple-200 font-medium">
@@ -60,7 +60,7 @@ const WhatwedoMobile = () => {
           </div>
           <div class="carousel-item relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-2xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-2xl text-realOrange text-center font-bold">
                 DeFi Basket
               </h3>
               <p className="my-10 text-base text-purple-200 font-medium">
@@ -84,7 +84,7 @@ const WhatwedoMobile = () => {
           </div>
           <div class="carousel-item relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-xl text-realOrange text-center font-bold">
                 Permissioned AMM & Pools
               </h3>
               <p className="mb-9 mt-14 text-base text-purple-200 font-medium">
@@ -109,7 +109,7 @@ const WhatwedoMobile = () => {
           </div>
           <div class="carousel-item relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-2xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-2xl text-realOrange text-center font-bold">
                 LaunchPad
               </h3>
               <p className="my-4 text-base text-purple-200 font-medium">
@@ -133,7 +133,7 @@ const WhatwedoMobile = () => {
           </div>
           <div class="carousel-item relative float-left w-full">
             <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
-              <h3 className="text-2xl text-realOrange text-center font-bold text-white">
+              <h3 className="text-2xl text-realOrange text-center font-bold">
                 Vault
               </h3>
               <p className="my-4 text-base text-purple-200 font-medium">

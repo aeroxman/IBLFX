@@ -56,69 +56,68 @@ const footerNavigation = {
 const FooterWeb = () => {
   return (
     <>
-      <div className="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-6 lg:pt-24 lg:px-8">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="grid grid-cols-2 gap-8 xl:col-span-2">
-            <div className="space-y-4">
-              <img
-                className="h-6 w-auto"
-                src={require("../../assets/LGO.png")}
-                alt=""
-              />
-              <p className="text-gray-300 pr-56">
-                Operations in an easy and affordable way with a focus on the
-                decentralized finance market.
-              </p>
-              <div className="flex space-x-6 md:order-2">
-                {footerNavigation.social.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className="text-realOrange hover:text-orange-800"
-                  >
-                    <span className="sr-only">{item.name}</span>
-                    <item.icon className="h-6 w-6" aria-hidden="true" />
-                  </a>
-                ))}
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
-                  Navigation
-                </h3>
-                <ul role="list" className="mt-4 space-y-2">
-                  {footerNavigation.navigation.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-gray-300 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-12 md:mt-0">
-                <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
-                  Products
-                </h3>
-                <ul role="list" className="mt-4 space-y-2">
-                  {footerNavigation.products.map((item) => (
-                    <li key={item.name}>
-                      <a
-                        href={item.href}
-                        className="text-base text-gray-300 hover:text-gray-900"
-                      >
-                        {item.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+      <div className="max-w-7xl mx-auto pt-16 pb-8 px-4 sm:px-1 lg:pt-16 lg:px-8">
+        <div className="grid grid-cols-3 gap-24">
+          <div className="space-y-4 pl-44">
+            <img
+              className="h-6 w-auto"
+              src={require("../../assets/LGO.png")}
+              alt=""
+            />
+            <p className="text-gray-300">
+              Operations in an easy and affordable way with a focus on the
+              decentralized finance market.
+            </p>
+            <div className="flex space-x-6 md:order-2">
+              {footerNavigation.social.map((item) => (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-realOrange hover:text-orange-800"
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </a>
+              ))}
             </div>
           </div>
+          <div className="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
+                Navigation
+              </h3>
+              <ul role="list" className="mt-4 space-y-2">
+                {footerNavigation.navigation.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-300 hover:text-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="mt-12 md:mt-0">
+              <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
+                Products
+              </h3>
+              <ul role="list" className="mt-4 space-y-2">
+                {footerNavigation.products.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="text-base text-gray-300 hover:text-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
           <div className="mt-12 xl:mt-0">
             <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
               Newsletter
@@ -134,7 +133,7 @@ const FooterWeb = () => {
                   id="name"
                   autoComplete="name"
                   required
-                  className="bg-indigo-900 rounded-full shadow-sm py-2 px-4 text-base text-gray-200
+                  className="bg-realBlue rounded-full shadow-sm py-2 px-2 text-base text-gray-200
                     placeholder-gray-400 focus:outline-none focus:placeholder-gray-400"
                   placeholder="Nome"
                 />
@@ -144,7 +143,7 @@ const FooterWeb = () => {
                   id="email-address"
                   autoComplete="email"
                   required
-                  className="bg-indigo-900 rounded-full shadow-sm py-2 px-4 text-base text-gray-200
+                  className="bg-realBlue rounded-full shadow-sm py-2 px-2 text-base text-gray-200
                     placeholder-gray-400 focus:outline-none focus:placeholder-gray-400"
                   placeholder="E-mail"
                 />

@@ -5,10 +5,10 @@ const MainPage = () => {
   return (
     <>
       <header class="relative flex items-center justify-center h-screen lg:mb-12 overflow-hidden">
-        <div class="relative z-30 p-5 text-2xl text-white">
+        <div class="relative z-20 bg-black w-full h-2/3 lg:h-full items-center flex bg-opacity-70 lg:pt-4">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
-            <div className="mx-auto max-w-md px-4 lg:px-0 lg:text-left lg:flex lg:items-center">
-              <div className="bg-black bg-opacity-60 p-4 rounded-xl lg:p-0 lg:py-24 lg:bg-transparent">
+            <div className="mx-auto max-w-md lg:text-left lg:flex lg:items-center">
+              <div className="rounded-xl lg:py-24">
                 <h1 className="text-5xl text-center tracking-tight font-bold text-white lg:mt-6 lg:text-8xl lg:text-left">
                   <span className="block bg-clip-text text-transparent bg-realOrange">
                     Permissioned
@@ -16,13 +16,13 @@ const MainPage = () => {
                   <span className="pb-3 block lg:pb-5">Digital assets</span>
                 </h1>
                 <p
-                  className="mt-2 pb-5 px-10 text-center text-xl tracking-tight font-bold text-white 
+                  className="mt-2 pb-5 px-8 text-center text-xl tracking-tight font-bold text-white 
                    lg:text-4xl lg:pb-0 lg:px-0 lg:text-left"
                 >
                   Uma comunidade feita por e para{" "}
                   <span className="text-realOrange">Market Makers</span>
                 </p>
-                <p className="text-base font-bold text-white text-center px-10 lg:font-normal lg:px-0 lg:text-left lg:text-xl">
+                <p className="text-base font-bold text-white text-center px-8 lg:font-normal lg:px-0 lg:text-left lg:text-xl">
                   Aproveite de todos os beneficios dos ativos digitais de forma
                   segura e controlada, com alto ganho e menos riscos.
                 </p>
@@ -64,7 +64,7 @@ const MainPage = () => {
           autoPlay
           loop
           muted
-          class="absolute z-10 w-auto min-w-full min-h-full max-w-none cover"
+          class="absolute z-10 w-auto min-w-full max-w-none cover h-2/3 lg:h-full"
         >
           <source src={Video} type="video/mp4" />
         </video>
