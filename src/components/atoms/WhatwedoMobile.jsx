@@ -8,11 +8,14 @@ const WhatwedoMobile = () => {
       </h2>
       <div
         id="carouselExampleCaptions"
-        class="carousel slide relative"
+        className="carousel slide relative"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner relative w-full overflow-hidden">
-          <div class="carousel-item active relative float-left w-full transition duration-500">
+        <div className="carousel-inner relative w-full overflow-hidden">
+          <div
+            className="carousel-item active relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 Lending & Borrowing
@@ -36,7 +39,10 @@ const WhatwedoMobile = () => {
             </div>
           </div>
 
-          <div class="carousel-item relative float-left w-full transition duration-500">
+          <div
+            className="carousel-item relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 OTC (Over the Counter)
@@ -60,7 +66,10 @@ const WhatwedoMobile = () => {
             </div>
           </div>
 
-          <div class="carousel-item relative float-left w-full transition duration-500">
+          <div
+            className="carousel-item relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 DeFi Basket
@@ -85,7 +94,10 @@ const WhatwedoMobile = () => {
             </div>
           </div>
 
-          <div class="carousel-item relative float-left w-full transition duration-500">
+          <div
+            className="carousel-item relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 Permissioned AMM & Pools
@@ -111,7 +123,10 @@ const WhatwedoMobile = () => {
             </div>
           </div>
 
-          <div class="carousel-item relative float-left w-full transition duration-500">
+          <div
+            className="carousel-item relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 LaunchPad
@@ -136,7 +151,10 @@ const WhatwedoMobile = () => {
             </div>
           </div>
 
-          <div class="carousel-item relative float-left w-full transition duration-500">
+          <div
+            className="carousel-item relative float-left w-full"
+            data-mdb-interval="12000"
+          >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 Vault
@@ -161,12 +179,12 @@ const WhatwedoMobile = () => {
             </div>
           </div>
         </div>
-        <div class="carousel-indicators right-0 bottom-0 left-0 flex justify-center p-0 mb-4 mt-4">
+        <div className="carousel-indicators right-0 bottom-0 left-0 flex justify-center p-0 mb-4 mt-4">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -202,28 +220,28 @@ const WhatwedoMobile = () => {
           ></button>
         </div>
         <button
-          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span
-            class="carousel-control-prev-icon inline-block bg-no-repeat"
+            className="carousel-control-prev-icon inline-block bg-no-repeat"
             aria-hidden="true"
           ></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
           type="button"
           data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span
-            class="carousel-control-next-icon inline-block bg-no-repeat"
+            className="carousel-control-next-icon inline-block bg-no-repeat"
             aria-hidden="true"
           ></span>
-          <span class="visually-hidden">Next</span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </div>
