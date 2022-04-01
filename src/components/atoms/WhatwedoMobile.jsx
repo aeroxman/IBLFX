@@ -14,7 +14,7 @@ const WhatwedoMobile = () => {
         <div className="carousel-inner relative w-full overflow-hidden">
           <div
             className="carousel-item active relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
@@ -41,7 +41,7 @@ const WhatwedoMobile = () => {
 
           <div
             className="carousel-item relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
@@ -68,7 +68,7 @@ const WhatwedoMobile = () => {
 
           <div
             className="carousel-item relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
@@ -96,7 +96,7 @@ const WhatwedoMobile = () => {
 
           <div
             className="carousel-item relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
@@ -125,7 +125,7 @@ const WhatwedoMobile = () => {
 
           <div
             className="carousel-item relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
@@ -153,7 +153,7 @@ const WhatwedoMobile = () => {
 
           <div
             className="carousel-item relative float-left w-full"
-            data-mdb-interval="12000"
+            data-bs-interval="15000"
           >
             <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">

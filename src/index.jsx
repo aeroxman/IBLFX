@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import LandingPage from "./components/organisms/LandingPage";
 import "tw-elements";
+import "flowbite";
 
 ReactDOM.render(
   <React.StrictMode>
