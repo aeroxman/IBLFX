@@ -2,22 +2,22 @@ import React from "react";
 
 const WhatwedoMobile = () => {
   return (
-    <div className="max-w-4xl mx-auto px-8 py-16">
+    <div className="max-w-4xl mx-auto px-8 py-8">
       <h2 className="text-6xl font-bold text-white text-center tracking-tight italic pb-8">
         What we do
       </h2>
       <div
-        id="carouselExampleControls"
+        id="carouselExampleCaptions"
         class="carousel slide relative"
         data-bs-ride="carousel"
       >
         <div class="carousel-inner relative w-full overflow-hidden">
-          <div class="carousel-item active relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+          <div class="carousel-item active relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 Lending & Borrowing
               </h3>
-              <p className="mb-24 mt-4 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 A Ledn, plataforma parceira da IBLF
                 <span className="text-realOrange">x</span>, disponibiliza
                 diversos produtos de empréstimo destinados a BTC e USDC.
@@ -35,12 +35,13 @@ const WhatwedoMobile = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+
+          <div class="carousel-item relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 OTC (Over the Counter)
               </h3>
-              <p className="mb-20 mt-4 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 A IBLF<span className="text-realOrange">x</span> possui vasta
                 experiência com operações balcão, além de uma robusta estrutura
                 para otimizar operações no mercado OTC. As operações ocorrem
@@ -58,12 +59,13 @@ const WhatwedoMobile = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+
+          <div class="carousel-item relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 DeFi Basket
               </h3>
-              <p className="my-10 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 Tenha exposição a diversas criptos com apenas uma! A plataforma
                 do <span className="text-cyan-600">Greedyfi</span> fornece
                 acesso a diferentes cestas de tokens, proporcionando uma
@@ -82,12 +84,13 @@ const WhatwedoMobile = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+
+          <div class="carousel-item relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-xl text-realOrange text-center font-bold">
                 Permissioned AMM & Pools
               </h3>
-              <p className="mb-9 mt-14 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 Explore o universo das Finanças Descentralizadas de forma segura
                 e confiável! Aqui o preço dos ativos é definido pelo
                 <span className="text-realOrange">
@@ -107,12 +110,13 @@ const WhatwedoMobile = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+
+          <div class="carousel-item relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 LaunchPad
               </h3>
-              <p className="my-4 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 O Launchpad IBLF<span className="text-realOrange">x</span> é o
                 ambiente ideal para quem busca atuar como Market Maker,
                 comprando tokens antes de serem disponibilizados no mercado.
@@ -131,12 +135,13 @@ const WhatwedoMobile = () => {
               </div>
             </div>
           </div>
-          <div class="carousel-item relative float-left w-full">
-            <div className="bg-black rounded-xl px-14 py-4 bg-opacity-50 shadow-lg grid">
+
+          <div class="carousel-item relative float-left w-full transition duration-500">
+            <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
               <h3 className="text-2xl text-realOrange text-center font-bold">
                 Vault
               </h3>
-              <p className="my-4 text-base text-purple-200 font-medium">
+              <p className="px-4 py-8 text-base text-purple-200 font-medium">
                 A IBLF<span className="text-realOrange">x</span> armazena todos
                 os ativos no sistema de custódia mais utilizado pelas grandes
                 instituições ao redor do Mundo, garantindo o maior nível de
@@ -156,11 +161,50 @@ const WhatwedoMobile = () => {
             </div>
           </div>
         </div>
+        <div class="carousel-indicators right-0 bottom-0 left-0 flex justify-center p-0 mb-4 mt-4">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
         <button
-          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 
-          hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev"
         >
           <span
@@ -170,10 +214,9 @@ const WhatwedoMobile = () => {
           <span class="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 
-          hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
           type="button"
-          data-bs-target="#carouselExampleControls"
+          data-bs-target="#carouselExampleCaptions"
           data-bs-slide="next"
         >
           <span

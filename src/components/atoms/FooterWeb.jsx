@@ -91,7 +91,7 @@ const FooterWeb = () => {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-base text-gray-300 hover:text-gray-900"
+                      className="text-base text-gray-300 hover:text-gray-500"
                     >
                       {item.name}
                     </a>
@@ -108,7 +108,7 @@ const FooterWeb = () => {
                   <li key={item.name}>
                     <a
                       href={item.href}
-                      className="text-base text-gray-300 hover:text-gray-900"
+                      className="text-base text-gray-300 hover:text-gray-500"
                     >
                       {item.name}
                     </a>
@@ -118,7 +118,7 @@ const FooterWeb = () => {
             </div>
           </div>
 
-          <div className="mt-12 xl:mt-0">
+          <div className="pr-32">
             <h3 className="text-sm font-semibold text-gray-200 tracking-wider uppercase">
               Newsletter
             </h3>
@@ -133,7 +133,7 @@ const FooterWeb = () => {
                   id="name"
                   autoComplete="name"
                   required
-                  className="bg-realBlue rounded-full shadow-sm py-2 px-2 text-base text-gray-200
+                  className="bg-realBlue rounded-full shadow-sm py-2 px-4 w-full text-base text-gray-200
                     placeholder-gray-400 focus:outline-none focus:placeholder-gray-400"
                   placeholder="Nome"
                 />
@@ -143,7 +143,7 @@ const FooterWeb = () => {
                   id="email-address"
                   autoComplete="email"
                   required
-                  className="bg-realBlue rounded-full shadow-sm py-2 px-2 text-base text-gray-200
+                  className="bg-realBlue rounded-full shadow-sm py-2 px-4 w-full text-base text-gray-200
                     placeholder-gray-400 focus:outline-none focus:placeholder-gray-400"
                   placeholder="E-mail"
                 />
@@ -151,7 +151,7 @@ const FooterWeb = () => {
                   <button
                     type="submit"
                     className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
-                      px-20 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
+                    w-full py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
                   >
                     Enviar
                   </button>

@@ -14,7 +14,7 @@ const PermissionadosMobile = () => {
             Ativos não permissionados{" "}
             <p className="text-white">disponíveis no mercado digital</p>
           </p>
-          <p className="text-realOrange font-semibold">
+          <p className="text-realOrange">
             No modelo tradicional não permissionado, conhecido como uma
             blockchain pública, não há nenhuma restrição e a participação é
             livre, sem controle de um administrador. As transações acontecem
@@ -28,7 +28,7 @@ const PermissionadosMobile = () => {
             IBLF
             <p className="text-realOrange">x</p>
           </p>
-          <p className="text-realOrange font-semibold">
+          <p className="text-realOrange">
             A IBLFx age como um filtro de autenticação que garante a
             autenticidade de todos os players, criando um layer de proteção para
             transações de ativos digitais não permissionados, de forma segura e
@@ -41,7 +41,7 @@ const PermissionadosMobile = () => {
             Trader IBLF
             <p className="text-realOrange">x</p>
           </p>
-          <p className="text-realOrange font-semibold">
+          <p className="text-realOrange">
             O cliente IBLFx pode aproveitar do potencial lucrativo dos ativos
             digitais de forma mais segura, rápida e lucrativa, sem riscos quanto
             ao outro lado da operação.

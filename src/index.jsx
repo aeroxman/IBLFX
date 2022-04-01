@@ -7,7 +7,9 @@ import "tw-elements";
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <div className="font-link">
+      <LandingPage />
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 );

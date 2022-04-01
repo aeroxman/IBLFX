@@ -6,12 +6,12 @@ const WhatwedoWeb = () => {
       <h2 className="text-8xl font-bold text-white text-center tracking-tight italic">
         What we do
       </h2>
-      <div className="grid mt-16 grid-cols-3 gap-x-8 gap-y-16">
+      <div className="mt-16 grid grid-cols-3 gap-x-8 gap-y-16">
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             Lending & Borrowing
           </h3>
-          <p className="mb-24 mt-12 text-base text-purple-200 font-medium">
+          <p className="mb-28 mt-12 text-base text-purple-200 font-medium">
             A Ledn, plataforma parceira da IBLF
             <span className="text-realOrange">x</span>, disponibiliza diversos
             produtos de empréstimo destinados a BTC e USDC. Empreste e desfrute
@@ -30,7 +30,7 @@ const WhatwedoWeb = () => {
         </div>
 
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             OTC (Over the Counter)
           </h3>
           <p className="mb-20 mt-10 text-base text-purple-200 font-medium">
@@ -52,7 +52,7 @@ const WhatwedoWeb = () => {
         </div>
 
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             DeFi Basket
           </h3>
           <p className="my-10 text-base text-purple-200 font-medium">
@@ -77,10 +77,10 @@ const WhatwedoWeb = () => {
 
       <div className="grid mt-16 grid-cols-3 gap-x-8 gap-y-16">
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             Permissioned AMM & Pools
           </h3>
-          <p className="mb-9 mt-12 text-base text-purple-200 font-medium">
+          <p className="my-9 text-base text-purple-200 font-medium">
             Explore o universo das Finanças Descentralizadas de forma segura e
             confiável! Aqui o preço dos ativos é definido pelo
             <span className="text-realOrange">"Automated Market Maker"</span>,
@@ -90,7 +90,7 @@ const WhatwedoWeb = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
+              className="mt-12 whitespace-nowrap items-center bg-realOrange bg-origin-border 
                         px-12 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
             >
               Conheça
@@ -99,10 +99,10 @@ const WhatwedoWeb = () => {
         </div>
 
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             LaunchPad
           </h3>
-          <p className="my-4 text-base text-purple-200 font-medium">
+          <p className="my-8 pb-4 text-base text-purple-200 font-medium">
             O Launchpad IBLF<span className="text-realOrange">x</span> é o
             ambiente ideal para quem busca atuar como Market Maker, comprando
             tokens antes de serem disponibilizados no mercado. Nele, são
@@ -122,10 +122,10 @@ const WhatwedoWeb = () => {
         </div>
 
         <div className="bg-black rounded-xl px-8 py-8 bg-opacity-50 shadow-lg grid">
-          <h3 className="text-xl text-realOrange text-center font-medium">
+          <h3 className="text-xl text-realOrange text-center font-bold">
             Vault
           </h3>
-          <p className="my-4 text-base text-purple-200 font-medium">
+          <p className="my-8 text-base text-purple-200 font-medium">
             A IBLF<span className="text-realOrange">x</span> armazena todos os
             ativos no sistema de custódia mais utilizado pelas grandes
             instituições ao redor do Mundo, garantindo o maior nível de
@@ -136,7 +136,7 @@ const WhatwedoWeb = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
+              className="mt-10 whitespace-nowrap items-center bg-realOrange bg-origin-border 
               px-12 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
             >
               Conheça

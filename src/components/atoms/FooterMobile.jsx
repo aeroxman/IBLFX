@@ -86,7 +86,7 @@ const FooterMobile = () => {
               <button
                 type="submit"
                 className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
-                      px-20 py-1 border border-transparent rounded-full text-base text-white"
+                py-1 w-full border border-transparent rounded-full text-base text-white"
               >
                 Enviar
               </button>
