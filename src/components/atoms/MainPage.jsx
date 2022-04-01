@@ -21,7 +21,7 @@ const MainPage = () => {
                 Uma comunidade feita por e para{" "}
                 <span className="text-realOrange">Market Makers</span>
               </p>
-              <p className="text-sm text-white text-center mx-12 lg:font-normal lg:px-0 lg:text-left lg:text-xl lg:pt-4">
+              <p className="text-sm text-white text-center px-12 lg:font-normal lg:px-0 lg:text-left lg:text-xl lg:pt-4">
                 Aproveite de todos os beneficios dos ativos
                 <p> digitais de forma segura e controlada, com</p>
                 <p>alto ganho e menos riscos.</p>
