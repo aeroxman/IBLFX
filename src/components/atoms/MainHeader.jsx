@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 import { Popover } from "@headlessui/react";
 import { MenuIcon } from "@heroicons/react/outline";
 
@@ -22,14 +23,13 @@ const MainHeader = () => {
         >
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
-              <a href="#">
-                <span className="sr-only">Workflow</span>
+              <Link to="/">
                 <img
                   className="h-8 w-auto"
                   src={require("../../assets/LGO.png")}
                   alt=""
                 />
-              </a>
+              </Link>
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   className="whitespace-nowrap inline-flex items-center justify-center bg-realOrange

@@ -1,17 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import LandingPage from "./components/organisms/LandingPage";
 import "tw-elements";
 import "flowbite";
+import App from "./routes/App";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div className="font-link">
-      <LandingPage />
-    </div>
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

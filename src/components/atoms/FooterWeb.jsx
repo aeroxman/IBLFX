@@ -14,7 +14,7 @@ const footerNavigation = {
     { name: "DeFi Basket", href: "#" },
     { name: "AMM & Pools", href: "#" },
     { name: "Tokenization", href: "#" },
-    { name: "Vault", href: "#" },
+    { name: "Vault", href: "vault" },
   ],
   social: [
     {

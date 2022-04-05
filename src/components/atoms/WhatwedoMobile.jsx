@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WhatwedoMobile = () => {
   return (
@@ -173,7 +174,7 @@ const WhatwedoMobile = () => {
                   className="whitespace-nowrap items-center bg-realOrange bg-origin-border 
                         px-12 py-1 border border-transparent rounded-full text-base text-white hover:bg-orange-800"
                 >
-                  Conheça
+                  <Link to="vault">Conheça</Link>
                 </button>
               </div>
             </div>
